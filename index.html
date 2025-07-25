@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Космос</title>
     <style>
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Сделаем блок cosmos адаптивным */
+#cosmos {
+    border: 2px double #800080;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0e8ff;
+    margin: 20px auto;
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Медиа-запрос для мелких экранов */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+}
+
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -37,14 +64,7 @@
             border-radius: 10px;
             background-color: #f0e8ff;
         }
-        #cosmos {
-            width:400px ;
-            float: right;
-            border: 2px double #800080;
-            position: static;
-            
-             
-        }
+ 
     </style>
 </head>
 <body>
@@ -56,7 +76,7 @@
 Чем глубже ученые погружаются в неизведанный космос, тем больше уникальных объектов и уголков Вселенной они открывают. Вот некоторые из самых выдающихся “рекордсменов” космоса.
 
 Самое холодное место в космосе
-<img src="картинки/холод.jpg" width="400" >
+<img src="картинки/холод.jpg"  >
 Пока что самым холодным местом во Вселенной считается туманность Бумеранг. Она расположена в созвездии Центавра, примерно в 5 000 световых лет от Земли. Температура внутри туманности составляет -272 °C: не хватает всего градуса до абсолютного нуля.
 </div>
 <!-- Аудио -->
